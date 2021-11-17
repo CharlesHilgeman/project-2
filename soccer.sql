@@ -56,6 +56,22 @@ ALTER TABLE countries
 ADD COLUMN id SERIAL PRIMARY KEY;
 
 SELECT * FROM countries;
-	
-	
+
+SELECT countries.country_name,
+	countries.population,
+	countries.med_age,
+	fifa_stats.player_name, 
+	fifa_stats.overall_rating,
+	fifa_stats.team,
+	world_cups.cup_year,
+	world_cups.cup_winner,
+	world_cups.cup_second,
+	world_cups.cup_third,
+	world_cups.attendance
+FROM fifa_stats
+INNER JOIN countries
+ON countries.country_name = fifa_stats.nationality
+INNER JOIN world_cups
+ON countries.country_name = world_cups.country;
+
 	
