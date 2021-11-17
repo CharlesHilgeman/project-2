@@ -1,7 +1,5 @@
 # project-2
 
-## Background
-
 For this project, I wanted to create a database that housed different kinds of information (i.e. weather and residing rock stars in a state) to hopefully introduce some newfound conclusions that could come from querying data from my loaded final database.
 
 ## Extract
