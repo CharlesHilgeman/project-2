@@ -14,7 +14,7 @@ For this project, I extracted my data from the Kaggle website in order to form m
 
 In choosing these three files, I was able to decide on a route that best fit my objectives for this project.
 
-##Transform
+## Transform
 
 In order to transform this data, I proceeded using a number of techniques that were more familiar to me. 
 
